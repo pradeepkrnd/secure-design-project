@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>Secure security lab</title><link rel="stylesheet" href="/style.css">
+<script src="/safe.js" defer></script><script src="/secure.js" defer></script></head><body>
+<h1>Secure security lab</h1><p>Project 2 · Local educational demonstration</p>
+<p><a href="/vulnerable">Vulnerable version</a> | <a href="/secure">Secure version</a></p>
+<p id="marker">No injected script has executed</p>
+<section><h2>Comment preview</h2><label for="comment">Comment</label><textarea id="comment"></textarea>
+<button id="render">Render comment</button><output id="preview"></output></section>
+<section><h2>Validated calculator data</h2>
+<label for="expression">JSON with a, b, op</label>
+<textarea id="expression">{&quot;a&quot;:2,&quot;b&quot;:3,&quot;op&quot;:&quot;add&quot;}</textarea>
+<button id="calculate">Calculate</button><output id="result"></output></section>
+<p>Enforced CSP and safe text rendering are enabled.</p>
+</body></html>

@@ -1,0 +1,6 @@
+body {font: 18px system-ui; background:#f3f5f7; color:#172331; margin:35px auto; max-width:900px; padding:20px;}
+h1 {font-size:30px} section {background:white; padding:22px; margin:18px 0; border:1px solid #bbc4cf; border-radius:8px;}
+textarea {display:block; width:95%; height:64px; margin:12px 0; font:15px monospace;}
+button {background:#173d66; color:white; border:0; padding:10px 20px; border-radius:4px;}
+output {display:block; min-height:25px; padding:16px; margin-top:12px; background:#edf2f7; overflow-wrap:anywhere;}
+#marker {font-weight:bold;color:#9d1818} a {color:#173d66}

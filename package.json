@@ -1,0 +1,15 @@
+{
+  "name": "secure-design-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local XSS and eval demonstration with secure alternatives",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/unit.js",
+    "test:browser": "node tests/browser.js",
+    "test:integration": "node tests/integration.js"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}

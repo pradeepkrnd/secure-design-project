@@ -1,0 +1,9 @@
+PASS: /secure returns 200 with enforced CSP
+PASS: /secure.js returns 200 with enforced CSP
+PASS: /safe.js returns 200 with enforced CSP
+PASS: vulnerable lab route has no CSP
+PASS: unknown route is rejected with 404
+PASS: eval handler returns 5 for normal arithmetic in VM
+PASS: eval handler executes injected marker mutation in VM
+PASS: secure handler rejects script without marker mutation in VM
+PASS: secure handler assigns textContent and does not assign innerHTML in mocked DOM
